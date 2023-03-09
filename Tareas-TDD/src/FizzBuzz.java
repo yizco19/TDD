@@ -1,11 +1,17 @@
 
 
 public class FizzBuzz {
-    int suma(int num1,int num2){
-        return num1+num2;
+    public static int suma(String cadenaNumeros) {
+        if (cadenaNumeros.isEmpty()) {
+            return 0;
+        }
+        String[] numeros = cadenaNumeros.split(",");
+        int suma = 0;
+        for (String numero : numeros) {
+            suma += Integer.parseInt(numero);
+        }
+        return suma;
     }
-    int suma(int num1,int num2,int num3){
-        return num1+num2+num3;
-    }
+
 
 }

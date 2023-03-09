@@ -6,11 +6,16 @@ class FizzBuzzTest {
     @Test
     void testSum1(){
         FizzBuzz f=new FizzBuzz();
-        assertEquals(2,f.suma(1,1));
+        assertEquals(0,f.suma(""));
     }
     @Test
     void testSum2(){
         FizzBuzz f=new FizzBuzz();
-        assertEquals(4,f.suma(1,1,2));
+        assertEquals(1,f.suma("1"));
+    }
+    @Test
+    void testSum3(){
+        FizzBuzz f=new FizzBuzz();
+        assertEquals(3,f.suma("1,2"));
     }
 }
