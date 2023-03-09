@@ -4,23 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FizzBuzzTest {
     @Test
-    void testSum1(){
-
-        assertEquals(0,OperacionesTDD.suma(""));
+    public void testFizzBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String resultado = fb.jugar(15);
+        assertEquals("1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n", resultado);
     }
-    @Test
-    void testSum2(){
 
-        assertEquals(1,OperacionesTDD.suma("1"));
-    }
-    @Test
-    void testSum3(){
 
-        assertEquals(3,OperacionesTDD.suma("1,2"));
-    }
-    @Test
-    void testSum4(){
-
-        assertEquals(4,OperacionesTDD.suma("1,1,2"));
-    }
 }
