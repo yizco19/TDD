@@ -2,11 +2,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FizzBuzzTest {
+class OpereacionesTDDTest {
+
     @Test
     void testSum1(){
-
-        assertEquals(0,OperacionesTDD.suma(""));
+        assertEquals(0, OperacionesTDD.suma(""));
     }
     @Test
     void testSum2(){
@@ -22,5 +22,15 @@ class FizzBuzzTest {
     void testSum4(){
 
         assertEquals(4,OperacionesTDD.suma("1,1,2"));
+    }
+    @Test
+    void testSum5(){
+
+        assertEquals(4,OperacionesTDD.suma("1,2,"));
+    }
+    @Test
+    void testSum6(){
+
+        assertEquals(4,OperacionesTDD.suma("1,2,-2"));
     }
 }
