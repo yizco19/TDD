@@ -17,6 +17,12 @@ class FizzBuzzTest {
         assertEquals("", resultado);
     }
 
+    @Test
+    public void testFizzBuzzConMaximoNegativo() {
+        FizzBuzz fb = new FizzBuzz();
+        String resultado = fb.jugar(-15);
+        assertEquals("", resultado);
+    }
 
 
 }
