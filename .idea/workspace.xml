@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1574f197-253b-4a2b-9b2d-5bcd525ac2c9" name="Changes" comment="Test suma tres numeros">
-      <change afterPath="$PROJECT_DIR$/Tareas-TDD/Test/OpereacionesTDDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tareas-TDD/src/OperacionesTDD.java" afterDir="false" />
+    <list default="true" id="1574f197-253b-4a2b-9b2d-5bcd525ac2c9" name="Changes" comment="Test 6 CALCULADORA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tareas-TDD/Test/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tareas-TDD/Test/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tareas-TDD/Test/OpereacionesTDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tareas-TDD/Test/OpereacionesTDDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tareas-TDD/src/OperacionesTDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tareas-TDD/src/OperacionesTDD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,7 +44,6 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
@@ -62,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.OpereacionesTDDTest">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tareas-TDD" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,8 +71,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpereacionesTDDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tareas-TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpereacionesTDDTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpereacionesTDDTest.testSum5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tareas-TDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OpereacionesTDDTest" />
+      <option name="METHOD_NAME" value="testSum5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OpereacionesTDDTest" />
+        <item itemvalue="JUnit.OpereacionesTDDTest.testSum5" />
         <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
@@ -115,7 +135,70 @@
       <option name="project" value="LOCAL" />
       <updated>1678385094260</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test 4 y 5">
+      <created>1678385968047</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678385968047</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test 1 FizzBuzz">
+      <created>1678387286707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678387286707</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test 2 FizzBuzz">
+      <created>1678387317983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678387317983</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Test 3 FizzBuzz">
+      <created>1678387384451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678387384451</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Test 1y4 CALCULADORA">
+      <created>1678387451840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678387451840</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Test 5 CALCULADORA">
+      <created>1678467349409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678467349409</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Test 5 CALCULADORA">
+      <created>1678467835663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678467835663</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Test 6 CALCULADORA">
+      <created>1678467883838</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678467883838</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Test 6 CALCULADORA">
+      <created>1678468109082</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678468109082</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,15 +215,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test suma dos numeros" />
     <MESSAGE value="Test suma tres numeros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test suma tres numeros" />
+    <MESSAGE value="Test 4 y 5" />
+    <MESSAGE value="Test 1 FizzBuzz" />
+    <MESSAGE value="Test 2 FizzBuzz" />
+    <MESSAGE value="Test 3 FizzBuzz" />
+    <MESSAGE value="Test 1y4 CALCULADORA" />
+    <MESSAGE value="Test 5 CALCULADORA" />
+    <MESSAGE value="Test 6 CALCULADORA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 6 CALCULADORA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Tareas-TDD/Test/FizzBuzzTest.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Tareas-TDD/Test/OpereacionesTDDTest.java</url>
+          <line>27</line>
+          <properties class="OpereacionesTDDTest" method="testSum5">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
