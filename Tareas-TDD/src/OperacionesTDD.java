@@ -8,25 +8,26 @@ public class OperacionesTDD {
             int suma=0;
             for(int i = 0; i < numeros.length(); i++){
                 char ca=numeros.charAt(i);
-
-                if(ca==','){
+                if(ca!=','){
+                    numero+=ca;
+                }
+                if(ca==',' || i==numeros.length()-1){
                     numerosSeparados.add(Integer.parseInt(numero));
-                    if(i==numeros.length()-1){
+                    if(i==numeros.length()-1 && ca==','){
                         numerosSeparados.add(-1);
                     }
                     numero="";
                 }
-                if(ca!=','){
-                    numero+=ca;
-                }
+
 
             }
 
-            for(int i:numerosSeparados){
-                if(i<0){
+            for(int i=0;i<numerosSeparados.size();i++){
+                int num=numerosSeparados.get(i);
+                if(num<0){
                     return -1;
                 }
-                suma+=i;
+                suma+=num;
             }
             return suma;
         }
